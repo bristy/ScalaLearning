@@ -11,3 +11,14 @@ I believe learning kafka will enable me to read kafka codebase faster and contri
 ### Resources
 This is the course I am following to learn about scala. Course is free and completely online.
 https://scala.zone/courses/scala-beginner/foundations/introduction
+
+
+## sbt project compiled with Dotty
+
+### Usage
+
+This is a normal sbt project, you can compile code with `sbt compile` and run it
+with `sbt run`, `sbt console` will start a Dotty REPL.
+
+For more information on the sbt-dotty plugin, see the
+[dotty-example-project](https://github.com/lampepfl/dotty-example-project/blob/master/README.md).

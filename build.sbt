@@ -1,5 +1,12 @@
-name := "ScalaLearning"
+val dottyVersion = "0.26.0-RC1"
 
-version := "0.1"
+lazy val root = project
+  .in(file("."))
+  .settings(
+    name := "ScalaLearning",
+    version := "0.1.0",
 
-scalaVersion := "2.13.3"
+    scalaVersion := dottyVersion,
+
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
+  )
